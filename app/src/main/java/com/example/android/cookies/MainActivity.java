@@ -19,22 +19,15 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Called when the cookie should be eaten.
+     * This function will be called when the button is clicked.
      */
     public void eatCookie(View view) {
-        // TODO: Find a reference to the ImageView in the layout. Change the image.
+        // Find a reference to the ImageView in the layout. Change the image.
         ImageView android_cookie_image_view = (ImageView) findViewById(R.id.android_cookie_image_view);
         android_cookie_image_view.setImageResource(R.drawable.after_cookie);
 
-        // TODO: Find a reference to the TextView in the layout. Change the text.
+        // Find a reference to the TextView in the layout. Change the text.
         TextView status_text_view = (TextView) findViewById(R.id.status_text_view);
         status_text_view.setText("I'm so full");
-
-    }
-
-    private void TestUpload(){
-        int i = 1+1;
-        int j = 2+2;
-
     }
 }
